@@ -1,0 +1,25 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - CustomTest",
+			"request": "launch",
+			"args": [
+				"<",
+				"testcases/sizebig.in"
+			],
+			"mainClass": "CustomTest",
+			"projectName": "Assignment 123_31533e7d"
+		},
+		{
+			"type": "java",
+			"name": "Debug (Launch) - Current File",
+			"request": "launch",
+			"mainClass": "${file}"
+		}
+	]
+}
